@@ -1,0 +1,34 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundle directory
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+
+# Bundle config
+.bundle/
+
+# Gemfile lock (optional to ignore for GitHub Pages)
+# Gemfile.lock
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log

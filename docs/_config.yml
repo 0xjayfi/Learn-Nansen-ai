@@ -1,0 +1,152 @@
+# Jekyll configuration for GitHub Pages
+# Theme: Just the Docs - A modern, responsive documentation theme
+
+# Site settings
+title: Learn Nansen AI
+description: A comprehensive tutorial wiki for mastering Nansen AI's blockchain analytics platform
+baseurl: "/Learn-Nansen-ai" # the subpath of your site
+url: "https://0xjayfi.github.io" # base hostname
+
+# Theme configuration
+remote_theme: just-the-docs/just-the-docs@v0.7.0
+color_scheme: light
+
+# Just the Docs theme configuration
+logo: "/assets/images/logo.png" # optional logo
+favicon_ico: "/assets/images/favicon.ico" # optional favicon
+
+# Search configuration
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s\-./]+/
+  rel_url: true
+  button: false
+
+# Navigation configuration
+nav_enabled: true
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# Footer configuration
+footer_content: "Copyright &copy; 2024 Learn Nansen AI. Distributed by an <a href=\"https://github.com/0xjayfi/Learn-Nansen-ai/blob/main/LICENSE\">MIT license.</a>"
+last_edit_timestamp: true # show last edit time
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# GitHub configuration
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/0xjayfi/Learn-Nansen-ai"
+gh_edit_branch: "main"
+gh_edit_source: docs
+gh_edit_view_mode: "tree"
+
+# Collections for tutorials
+collections:
+  tutorials:
+    permalink: "/:collection/:path/"
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "tutorials"
+      type: "pages"
+    values:
+      parent: "Tutorials"
+
+# External links
+aux_links:
+  "Nansen AI":
+    - "https://nansen.ai"
+  "GitHub":
+    - "https://github.com/0xjayfi/Learn-Nansen-ai"
+aux_links_new_tab: true
+
+# Footer "Edit this page on GitHub" link
+footer_content_edit: true
+
+# Callouts (notes, warnings, etc.)
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: blue
+  important:
+    title: Important
+    color: yellow
+  tip:
+    title: Tip
+    color: green
+
+# Mermaid diagram support (optional)
+mermaid:
+  version: "9.1.6"
+
+# Google Analytics (optional - replace with your tracking ID)
+# ga_tracking: UA-XXXXXXXXX-X
+# ga_tracking_anonymize_ip: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO
+tagline: Master blockchain analytics with Nansen AI tutorials
+author:
+  name: Learn Nansen AI
+  twitter: nansen_ai
+twitter:
+  username: nansen_ai
+  card: summary
+social:
+  name: Learn Nansen AI
+  links:
+    - https://twitter.com/nansen_ai
+    - https://github.com/0xjayfi/Learn-Nansen-ai
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - .gitignore
+  - README.md
+  - LICENSE
+  - CLAUDE.md
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Compress HTML
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false

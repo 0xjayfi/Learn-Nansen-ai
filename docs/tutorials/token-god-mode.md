@@ -9,6 +9,19 @@ nav_order: 3
 
 Master comprehensive token analysis with Nansen's Token God Mode - your all-in-one dashboard for deep token insights.
 
+The following video illustrates the most important features of Token God Mode:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yBxJTpoKcow" title="Token God Mode Tutorial" frameborder="0" allow="accelerometer; 
+  autoplay; clipboard-write; 
+  encrypted-media; gyroscope; 
+  picture-in-picture; web-share" allowfullscreen></iframe>
+
+Key features to note: 
+
+- Flow Intelligence. 
+- Perps positions. 
+- Traders tab.  
+
 ## Overview
 
 Token God Mode is Nansen's flagship feature that provides a 360-degree view of any token. It combines on-chain analytics, smart money tracking, exchange flows, and holder analysis in a single, powerful interface.

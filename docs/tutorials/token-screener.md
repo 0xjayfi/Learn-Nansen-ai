@@ -7,7 +7,21 @@ nav_order: 1
 
 # Token Screener Tutorial
 
-Master the art of discovering high-potential tokens using Nansen's Token Screener.
+Master the art of discovering high-potential tokens using Nansen's Token Screener. 
+
+If you don't have time to go over the content below, watch the video tutorial here and skip to the next tutorial: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YjmaSz4T83g" title="Token Screener Tutorial" frameborder="0" allow="accelerometer; 
+  autoplay; clipboard-write; 
+  encrypted-media; gyroscope; 
+  picture-in-picture; web-share" allowfullscreen></iframe>
+
+In the video, you will find the absolutely important sections to set up your token screener: 
+
+- Chains 
+- Caps 
+- Toggle on or off the smart money switch
+- Overall Dex flows 
 
 ## Overview
 
